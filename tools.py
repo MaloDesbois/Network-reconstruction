@@ -1,4 +1,11 @@
 
+import networkx as nx
+import numpy as np
+import math
+import random
+from collections import defaultdict
+import matplotlib.pyplot as plt
+import matplotlib as mpl
 
 
 def reconstruction_greedy(g_damaged, g_initial, mesure,attribut ) : 
